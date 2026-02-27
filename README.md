@@ -8,7 +8,7 @@ The objective is to reduce missed appointments and minimize revenue loss using d
 
 
 ##  Tools & Technologies
-- Python (Pandas, NumPy)
+- Python (Pandas, Matplotlib,Seaborn)
 - Data Cleaning & Feature Engineering
 - SQL (MySQL)
 - Power BI
