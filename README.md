@@ -9,12 +9,38 @@ The objective is to reduce missed appointments and minimize revenue loss using d
 
 ##  Tools & Technologies
 - Python (Pandas)
-- Exploratory Data Analysis (Matplotlib And Seaborn)
 - Data Cleaning & Feature Engineering
+- Matplotlib And Seaborn (Exploratory Data Analysis)
 - SQL (MySQL)
 - Power BI
 - DAX
 
+##  Project Workflow
+
+### 1. Data Cleaning (Python)
+- Checked for missing/null values (dataset contained no null values)
+- Validated data consistency
+- Created new derived features such as:
+  - Waiting Time (in days)
+  - Waiting Time Buckets
+  - Age Groups
+  - No-Show Flag
+- Performed Exploratory Data Analysis (EDA) using Matplotlib and Seaborn
+
+### 2. SQL Analysis
+- Performed structured analytical queries in MySQL
+- Calculated no-show rates across:
+  - Waiting Buckets
+  - Age Groups
+  - Gender
+  - SMS Reminder Status
+  - Analyzed no-show trends across demographic and operational categories using GROUP BY and aggregate functions.
+- Generated business insights using aggregated and conditional queries
+
+### 3. Power BI Dashboard Development
+- Created DAX measures for KPI tracking
+- Designed interactive dashboard with slicers
+- Visualized operational and financial impact of missed appointments
 
 
 
@@ -23,16 +49,8 @@ The objective is to reduce missed appointments and minimize revenue loss using d
 - Longer waiting times are associated with higher no-show probability.
 - Patients who did not receive SMS reminders show higher absenteeism.
 - Certain age groups demonstrate comparatively higher no-show behavior.
-- Missed appointments contribute to measurable revenue loss.
+- Missed appointments contribute to measurable revenue loss operational performance.
 
-
-
-##  Dashboard Features
-- KPI Cards (Total Appointments, No Shows, No Show Rate, Revenue Loss)
-- Waiting Time Impact Analysis
-- Age Group Risk Analysis
-- SMS Reminder Effectiveness
-- Revenue Impact Visualization
 
 
 
